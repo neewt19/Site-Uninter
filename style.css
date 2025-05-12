@@ -124,10 +124,16 @@ footer span {
 }
 .social-links {
   margin-top: 15px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .social-links a {
-  margin: 0 10px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
   text-decoration: none;
   color: #007bff;
   font-weight: bold;
@@ -136,6 +142,11 @@ footer span {
 
 .social-links a:hover {
   color: #0056b3;
+}
+
+.social-links img {
+  width: 24px;
+  height: 24px;
 }
 
 .hidden {
