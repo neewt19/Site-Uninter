@@ -7,11 +7,11 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <div class="container">
-        <h1>Newthon S. Araújo</h1>
-        <nav id="nav">
-          <ul>
+    <header class="site-header">
+      <div class="container header-container">
+        <h1 class="site-title">Newthon S. Araújo</h1>
+        <nav id="nav" class="main-nav">
+          <ul class="nav-list">
             <li><a href="#inicio">Início</a></li>
             <li><a href="#sobre">Sobre</a></li>
             <li><a href="#projetos">Projetos</a></li>
@@ -23,36 +23,46 @@
     </header>
 
     <main>
-      <section id="inicio" class="section hidden">
-        <h2>Bem-vindo!</h2>
-        <p>
+      <section id="inicio" class="section section-inicio hidden">
+        <h2 class="section-title">Bem-vindo!</h2>
+        <p class="section-text">
           Olá! Eu sou <strong>Newthon Silveira Araújo</strong>, desenvolvedor
           apaixonado por tecnologia e inovação.
         </p>
       </section>
 
-      <section id="sobre" class="section hidden">
-        <h2>Sobre Mim</h2>
-        <p>
-          Comecei a programar em 2022 e desde então venho me dedicando ao
-          desenvolvimento de software.
+      <section id="sobre" class="section section-sobre">
+        <h2 class="section-title">Sobre Mim</h2>
+        <p class="section-text">
+          Me chamo Newthon Silveira Araujo e programo desde 2022. Já atuei como
+          jovem aprendiz no CEUMA e atualmente trabalho como assistente de
+          inovação no Oxygeni Hub. Fui participante do Programa Trilhas, onde
+          segui a trilha de Front-End, aprofundando meus conhecimentos em
+          desenvolvimento web.
         </p>
-        <p>
-          Já atuei como jovem aprendiz no CEUMA e atualmente trabalho como
-          <strong>assistente de inovação</strong> na
-          <strong>Oxygeni Hub</strong>.
+        <p class="section-text">
+          Tenho experiência com diversas tecnologias como HTML, CSS, JavaScript,
+          React, Java, Spring Boot, Next.js, Figma, SQL, entre outras. Sou
+          apaixonado por criar interfaces e soluções funcionais que facilitam o
+          dia a dia das pessoas.
         </p>
-        <p>
-          Participei do <strong>Programa Trilhas</strong>, onde integrei a
-          trilha de <strong>Front-End</strong> com foco no desenvolvimento web
-          moderno.
+        <p class="section-text">
+          Além da tecnologia, também sou um grande apreciador de música. Gosto
+          de ouvir diferentes estilos musicais e costumo participar de eventos
+          locais para apoiar artistas independentes e valorizar a cultura da
+          minha região.
+        </p>
+        <p class="section-text">
+          Tenho também o hobby de desenhar e editar / fazer animação de vídeos.
         </p>
       </section>
 
-      <section id="projetos" class="section hidden">
-        <h2>Tecnologias</h2>
-        <p>Durante minha jornada, aprendi e utilizei diversas tecnologias:</p>
-        <ul>
+      <section id="projetos" class="section section-projetos hidden">
+        <h2 class="section-title">Tecnologias</h2>
+        <p class="section-text">
+          Durante minha jornada, aprendi e utilizei diversas tecnologias:
+        </p>
+        <ul class="tech-list">
           <li>HTML, CSS, JavaScript</li>
           <li>React, Next.js</li>
           <li>Java, Spring Boot</li>
@@ -61,25 +71,42 @@
         </ul>
       </section>
 
-      <section id="contato" class="section hidden">
-        <h2>Contato</h2>
-        <p>
+      <section id="contato" class="section section-contato hidden">
+        <h2 class="section-title">Redes Sociais</h2>
+        <p class="section-text">
           Se quiser trocar uma ideia ou iniciar um projeto comigo, entre em
           contato!
         </p>
-        <p>Email: <strong>newthonaraujo19@email.com</strong></p>
+        <p class="section-text">
+          Email: <strong>newthonaraujo19@email.com</strong>
+        </p>
         <div class="social-links">
           <a href="https://github.com/neewt19" target="_blank">
             <img src="assets/github.png" alt="GitHub" /> GitHub
           </a>
-          <a href="www.linkedin.com/in/newthon-silveira-220738251" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/newthon-silveira-220738251"
+            target="_blank"
+          >
             <img src="assets/linkedin.png" alt="LinkedIn" /> LinkedIn
+          </a>
+          <a
+            href="https://open.spotify.com/user/tqadi7zz4m4wuu1dsayefa9cl?si=cc00807140304137"
+            target="_blank"
+          >
+            <img src="assets/spotify.png" alt="Spotify" /> Spotify
+          </a>
+          <a href="https://www.instagram.com/_neeewt/" target="_blank">
+            <img src="assets/instagram.png" alt="Instagram" /> Instagram
           </a>
         </div>
       </section>
     </main>
-    <footer>
-      <p>Todos os direitos reservados - <span>Newthon Silveira Araujo</span></p>
+
+    <footer class="site-footer">
+      <p class="footer-text">
+        Todos os direitos reservados - <span>Newthon Silveira Araujo</span>
+      </p>
     </footer>
 
     <script src="script.js"></script>

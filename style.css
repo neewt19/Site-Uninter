@@ -14,7 +14,7 @@ body {
   line-height: 1.6;
 }
 
-header {
+.site-header {
   background-color: #1e1e2f;
   color: white;
   padding: 15px 20px;
@@ -33,25 +33,25 @@ header {
   align-items: center;
 }
 
-h1 {
+.site-title {
   font-size: 24px;
   font-weight: 700;
 }
 
-nav ul {
+#nav ul {
   list-style: none;
   display: flex;
   gap: 20px;
 }
 
-nav a {
+#nav a {
   color: white;
   text-decoration: none;
   font-weight: 500;
   transition: color 0.3s;
 }
 
-nav a:hover {
+#nav a:hover {
   color: #00bfa6;
 }
 
@@ -62,7 +62,7 @@ nav a:hover {
 }
 
 @media (max-width: 768px) {
-  nav ul {
+  #nav ul {
     display: none;
     flex-direction: column;
     background: #2a2a3d;
@@ -73,7 +73,7 @@ nav a:hover {
     border-radius: 5px;
   }
 
-  nav ul.show {
+  #nav ul.show {
     display: flex;
   }
 
@@ -97,8 +97,11 @@ main {
   transition: all 0.6s ease;
   scroll-margin-top: 80px;
 }
+#about p {
+  margin-bottom: 1rem;
+}
 
-h2 {
+.section-title {
   font-size: 28px;
   margin-bottom: 20px;
   color: #1e1e2f;
@@ -109,7 +112,7 @@ ul {
   list-style: disc;
 }
 
-footer {
+.site-footer {
   background-color: #e4e4e4;
   padding: 15px 0;
   text-align: center;
@@ -118,7 +121,7 @@ footer {
   border-top: 1px solid #ccc;
 }
 
-footer span {
+.site-footer span {
   font-weight: bold;
   color: #007bff;
 }
